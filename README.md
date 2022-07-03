@@ -9,8 +9,9 @@
 ## Run Requirements
   - Docker Compose installed globally
   - Docker Daemon must be running.
-	- Composer 
-  Useful Installation notes on [Docker Compose](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-compose-on-ubuntu-22-04).
+	- [Composer](https://getcomposer.org/). 
+  
+Here are some useful installation notes on [Docker Compose](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-compose-on-ubuntu-22-04).
 
 ## Instructions
   - Download the git repository to your chosen destination
