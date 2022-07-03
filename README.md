@@ -6,13 +6,13 @@
   - Code is in PHP
   There is no need for a database, however there is commented code in the Dockerfile located at docker/php/Dockerfile that will install either mySQL or PostgreSQL on the Docker image 
 
-##Run Requirements
+## Run Requirements
   - Docker Compose installed globally
   - Docker Daemon must be running.
 	- Composer 
   Useful Installation notes on [Docker Compose](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-compose-on-ubuntu-22-04).
 
-##Instructions
+## Instructions
   - Download the git repository to your chosen destination
   `$ git clone https://github.com/jpickett76/supervisors.git`
   - CD into the supervisors folder
@@ -27,7 +27,7 @@
   `$ docker compose up -d --build`
   
   
-##API Endpoints are
+## API Endpoints are
   GET http://localhost:8080/api/supervisors
   POST http://localhost:8080/api/submit
   Post parameters below should to be in the body of the post and as a JSON String.  
